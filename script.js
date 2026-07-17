@@ -1,8 +1,11 @@
-// 1. Membuat fungsi untuk mengubah warna tema halaman
 function ubahTema() {
-    // Mengambil elemen <body> pada HTML
-    const tubuhHalaman = document.body;
+    // Mengambil elemen html paling atas
+    const html = document.documentElement;
     
-    // Jika sedang mode putih, ubah ke gelap. Jika gelap, balik ke putih.
-    tubuhHalaman.classList.toggle("mode-gelap");
+    // Jika sudah ada class 'dark', hapus. Jika belum ada, tambahkan.
+    if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+    } else {
+        html.classList.add('dark');
+    }
 }
