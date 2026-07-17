@@ -1,0 +1,33 @@
+/* Mengatur font dan warna latar belakang seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Mengatur gaya judul utama */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Mengatur gaya link tombol */
+a {
+    color: white;
+    background-color: #0785e5;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #082030;
+}
